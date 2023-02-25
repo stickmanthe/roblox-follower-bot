@@ -16,6 +16,9 @@ ru: Зайди внутрь файла run.py через любой Редакт
 
 Всё что обязательно нужно изменить показано текстом после символа "#"
 
+ru: По желанию можно изменить ID с которого будут начинаться подписки в 'ostalos.txt'
+
+en: If you want you can change ID in the 'ostalos.txt' file to make a profile that your Follows will start with
 
 en: Open cmd and type this:
 
