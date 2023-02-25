@@ -17,11 +17,11 @@ en: Open cmd and type this:
 ru: Открой коммандную строку и впиши в неё:
 
 
- *cd C:\...\...\podpisbotrb*
+ * cd C:\...\...\podpisbotrb*
 
- *pip install -r requirements.txt*
+ * pip install -r requirements.txt*
 
- *python run.py*
+ * python run.py*
 
 
 en: That's all!
