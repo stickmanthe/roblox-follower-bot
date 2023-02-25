@@ -22,7 +22,7 @@ en: If you want you can change ID in the 'ostalos.txt' file to make a profile th
 
 en: Open cmd and type this:
 
-ru: Открой коммандную строку и впиши в неё:
+ru: Открой командную строку и впиши в неё:
 
 
 
