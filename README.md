@@ -4,7 +4,9 @@ en: Tool for automatic Following users in Roblox
 
 ru: Программа которая автоматически подписывается на людей в Роблоксе.
 
+
 # Installation/Установка
+
 
 en: Open file 'run.py' from any Text editor and enter your own settings
 
@@ -16,6 +18,7 @@ ru: Зайди внутрь файла run.py через любой Редакт
 
 
 en: Open cmd and type this:
+
 ru: Открой коммандную строку и впиши в неё:
 
 
