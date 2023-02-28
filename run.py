@@ -46,6 +46,7 @@ while x >= y:
  choto.get(f"https://roblox.com/users/{prosm}")
  tritochki = choto.find_element(By.ID, "popover-link")
  tritochki.click()
+ time.sleep(2)
  podpis = choto.find_element(By.ID, "profile-follow-user")
  podpis.click()
  time.sleep(2)
