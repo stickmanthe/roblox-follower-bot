@@ -26,7 +26,7 @@ ru: Открой командную строку и впиши в неё:
 
 
 
- * cd C:\ ... \ ... \podpisbotrb
+ * cd C:\ ... \ ... \
 
  * pip install -r requirements.txt
 
