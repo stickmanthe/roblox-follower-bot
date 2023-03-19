@@ -1,6 +1,10 @@
 from selenium import webdriver
+
 from selenium.webdriver.common.by import By
+
 import time
+
+
  
 print("ru: Загрузка Браузера... ")
 print("en: Starting Browser... ")
@@ -10,8 +14,11 @@ choto = webdriver.Firefox()
 # For Safari/Для Сафари: choto = webdriver.Safari()
 
 
+
 print("ru: Входим на аккаунт...")
 print("en: Loggining... ")
+
+
 choto.get("https://roblox.com/login")
 
 
@@ -23,10 +30,14 @@ nik.send_keys("") # Nickname/Никнейм
 parol.send_keys("") # Password/Пароль
 
 
+
 voiti = choto.find_element(By.ID, "login-button")
 
 
+
 voiti.click()
+
+
 
 time.sleep(10)
 
