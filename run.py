@@ -25,11 +25,11 @@ x = 7
 y = 8
 x += 3
 while x >= y:
- f = open("ostalos.txt", "r+")
+ f = open("id.txt", "r+")
  prosm = int(f.read())
  print("Following... ")
- choto.get(f"https://roblox.com/users/{prosm}")
- tritochki = choto.find_element(By.ID, "popover-link")
+ browser.get(f"https://roblox.com/users/{prosm}")
+ tritochki = browser.find_element(By.ID, "popover-link")
  tritochki.click()
  time.sleep(2)
  podpis = choto.find_element(By.ID, "profile-follow-user")
