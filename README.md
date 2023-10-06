@@ -3,7 +3,7 @@
 Tool for automatic Following users in Roblox
 
 
-# Installation/Установка
+# Installation
 
 
 Open file 'run.py' from any Text editor and enter your own settings
