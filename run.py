@@ -21,9 +21,11 @@ password.send_keys("") # Type Roblox Account Password here
 voiti = choto.find_element(By.ID, "login-button")
 voiti.click()
 time.sleep(10)
+
 x = 7
 y = 8
 x += 3
+
 while x >= y:
  f = open("id.txt", "r+")
  prosm = int(f.read())
