@@ -2,8 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-print("ru: Загрузка Браузера... ")
-print("en: Starting Browser... ")
+print("Starting Browser... ")
 
 browser = webdriver.Firefox()
 # For Chrome: browser = webdriver.Chrome()
