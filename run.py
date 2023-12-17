@@ -11,13 +11,13 @@ browser = webdriver.Firefox()
 
 print("en: Loggining... ")
 browser.get("https://roblox.com/login")
-username = choto.find_element(By.ID, "login-username")
-password = choto.find_element(By.ID, "login-password")
+username = browser.find_element(By.ID, "login-username")
+password = browser.find_element(By.ID, "login-password")
 
 username.send_keys("") # Type Roblox Account Nickname here
 password.send_keys("") # Type Roblox Account Password here
 
-voiti = choto.find_element(By.ID, "login-button")
+voiti = browser.find_element(By.ID, "login-button")
 voiti.click()
 time.sleep(10)
 
@@ -33,7 +33,7 @@ while x >= y:
  tritochki = browser.find_element(By.ID, "popover-link")
  tritochki.click()
  time.sleep(2)
- podpis = choto.find_element(By.ID, "profile-follow-user")
+ podpis = browser.find_element(By.ID, "profile-follow-user")
  podpis.click()
  time.sleep(2)
  af = str(prosm - 1)
