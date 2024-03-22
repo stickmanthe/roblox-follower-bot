@@ -19,13 +19,9 @@ password.send_keys("") # Type Roblox Account Password here
 
 voiti = browser.find_element(By.ID, "login-button")
 voiti.click()
-time.sleep(10)
+time.sleep(10)
 
-x = 7
-y = 8
-x += 3
-
-while x >= y:
+while True:
  f = open("id.txt", "r+")
  prosm = int(f.read())
  print("Following... ")
